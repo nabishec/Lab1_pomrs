@@ -1,0 +1,13 @@
+VAR
+	fb_regulator : FB_Regulator;
+	fb_motor : FB_Motor;
+	Enable : BOOL := FALSE;
+	Speed : REAL := 0;
+	e : REAL := 0;
+	exit_speed : REAL := 0;
+	cnt : REAL := 0.0;
+	fb_motor_unreg : FB_Motor;
+	exit_speed_unreg : REAL;
+	u_unreg : REAL := 0.0;
+	pulse_width : REAL := 0;
+END_VAR
